@@ -1,0 +1,79 @@
+{
+  "items": [
+    {
+      "type": "pants",
+      "sex": "male",
+      "color": "blue"
+    },
+    {
+      "type": "pants",
+      "sex": "male",
+      "color": "yellow"
+    },
+    {
+      "type": "pants",
+      "sex": "male",
+      "color": "pink"
+    },
+    {
+      "type": "t-shirt",
+      "sex": "male",
+      "color": "blue"
+    },
+    {
+      "type": "t-shirt",
+      "sex": "male",
+      "color": "yellow"
+    },
+    {
+      "type": "t-shirt",
+      "sex": "male",
+      "color": "pink"
+    },
+    {
+      "type": "skirt",
+      "sex": "female",
+      "color": "blue"
+    },
+    {
+      "type": "skirt",
+      "sex": "female",
+      "color": "yellow"
+    },
+    {
+      "type": "skirt",
+      "sex": "female",
+      "color": "pink"
+    },
+    {
+      "type": "t-shirt",
+      "sex": "female",
+      "color": "blue"
+    },
+    {
+      "type": "t-shirt",
+      "sex": "female",
+      "color": "yellow"
+    },
+    {
+      "type": "t-shirt",
+      "sex": "female",
+      "color": "pink"
+    },
+    {
+      "type": "pants",
+      "sex": "female",
+      "color": "blue"
+    },
+    {
+      "type": "pants",
+      "sex": "female",
+      "color": "yellow"
+    },
+    {
+      "type": "pants",
+      "sex": "female",
+      "color": "pink"
+    }
+  ]
+}
