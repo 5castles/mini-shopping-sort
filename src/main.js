@@ -1,7 +1,3 @@
-const displayingItemsContainer = document.querySelector('.items');
-const sortNavigation = document.querySelector('.sort-nav');
-const logo = document.querySelector('.logo__image');
-
 const CLASSNAME_ITEM = 'item';
 const CLASSNAME_DISPLAY_NONE = 'display-none';
 
@@ -24,6 +20,7 @@ function displayItems (items) {
 }
 
 function createItem({ type, sex, color }) {
+  const itemsContainer = document.querySelector('.items');
   const newItem = document.createElement('li');
   const html = `
     <img class="item__thumbnail" src="img/${color}_${type.slice(0, 1)}.png" alt="thumbnail" />
@@ -32,10 +29,12 @@ function createItem({ type, sex, color }) {
 
   newItem.innerHTML = html.trim();
   newItem.classList.add(CLASSNAME_ITEM);
-  displayingItemsContainer.appendChild(newItem);
+  itemsContainer.appendChild(newItem);
 }
 
 function setEventListener () {
+  const logo = document.querySelector('.logo__image');
+  const sortNavigation = document.querySelector('.sort-nav');
   const itemDescriptions = document.querySelectorAll('.item__description');
 
   sortNavigation.addEventListener('click', (event) => {
